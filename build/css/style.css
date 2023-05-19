@@ -590,11 +590,6 @@ video {
   padding-right: 2.25rem;
 }
 
-.py-\[44px\] {
-  padding-top: 44px;
-  padding-bottom: 44px;
-}
-
 .py-44 {
   padding-top: 44px;
   padding-bottom: 44px;
@@ -711,18 +706,6 @@ video {
 
   .xl\:justify-between {
     justify-content: space-between;
-  }
-
-  .xl\:pl-\[72px\] {
-    padding-left: 72px;
-  }
-
-  .xl\:pr-\[92px\] {
-    padding-right: 92px;
-  }
-
-  .xl\:pt-\[76px\] {
-    padding-top: 76px;
   }
 
   .xl\:pl-72 {
