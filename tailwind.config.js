@@ -20,6 +20,13 @@ module.exports = {
       },
       minWidth: {
         'mobile': '375px'
+      },
+      padding: {
+        '44': '44px',
+        '72': '72px',
+        '76': '76px',
+        '92': '92px',
+
       }
     },
   },
