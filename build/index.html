@@ -1,57 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Stats preview card component</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <body
+    class="grid min-h-screen place-content-center bg-very-dark-blue p-4 text-[15px]"
+  >
+    <main
+      class="w-[320px] rounded-md bg-dark-desaturated-blue text-center sm:min-w-[375px] xl:flex xl:w-[1110px] xl:flex-row-reverse"
+    >
+      <picture>
+        <source
+          srcset="./images/image-header-desktop.jpg"
+          media="(min-width:750px)"
+        />
+        <img
+          src="./images/image-header-mobile.jpg"
+          alt=""
+          class="rounded-t-md"
+        />
+      </picture>
+      <section
+        class="px-9 py-[44px] xl:h-[400px] xl:w-[570px] xl:pl-[72px] xl:pr-[92px] xl:pt-[76px] xl:text-left"
+      >
+        <h1
+          class="mb-[22px] font-inter text-2xl font-bold text-white sm:text-3xl"
+        >
+          Get <span class="text-soft-violet xl:mb-8">insights</span> that help
+          your business grow.
+        </h1>
 
-</head>
+        <p
+          class="mb-12 font-lexendDeca text-white text-opacity-75 sm:text-base xl:mb-20"
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
 
-<body class="min-h-screen grid place-content-center bg-[#090b1a] p-4 text-[15px]">
-  <main
-    class="w-[320px] bg-[#1b1938] text-center rounded-md sm:min-w-[375px] xl:flex xl:flex-row-reverse xl:w-[1110px]">
-    <picture>
-      <source srcset="./images/image-header-desktop.jpg" media="(min-width:750px)">
-      <img src="./images/image-header-mobile.jpg" alt="" class="rounded-t-md">
-    </picture>
-    <section class="px-9 py-[44px] xl:h-[400px] xl:w-[570px] xl:text-left xl:pl-[72px] xl:pr-[92px] xl:pt-[76px]">
-      <h1 class="text-2xl text-white font-bold mb-[22px] font-inter sm:text-3xl">Get <span
-          class="text-[#aa5cdb] xl:mb-8">insights</span>
-        that help your business
-        grow.</h1>
-
-      <p class="text-white text-opacity-75 mb-12 font-lexendDeca sm:text-base xl:mb-20">Discover the benefits of data
-        analytics
-        and
-        make
-        better decisions
-        regarding
-        revenue, customer
-        experience, and overall efficiency.</p>
-
-
-      <div class="flex flex-col gap-8 uppercase font-inter sm:flex-row xl:justify-between">
-        <p class="flex flex-col"><span class="text-2xl text-white font-bold">10k+</span> <span
-            class="text-white text-opacity-75">companies</span></p>
-        <p class="flex flex-col"><span class="text-2xl text-white font-bold">314</span> <span
-            class="text-white text-opacity-75">templates</span></p>
-        <p class="flex flex-col"><span class="text-2xl text-white font-bold">12m+</span> <span
-            class="text-white text-opacity-75">queries</span></p>
-      </div>
-    </section>
-  </main>
-  <footer class="text-center text-[11px] opacity-0 hover:opacity-100 ">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-[#3e52a3]">Frontend
-      Mentor</a>.
-    Coded by <a href="#" class="text-[#3e52a3]">Your Name Here</a>.
-  </footer>
-</body>
-
+        <div
+          class="flex flex-col gap-8 font-inter uppercase sm:flex-row xl:justify-between"
+        >
+          <p class="flex flex-col">
+            <span class="text-2xl font-bold text-white">10k+</span>
+            <span class="text-white text-opacity-75">companies</span>
+          </p>
+          <p class="flex flex-col">
+            <span class="text-2xl font-bold text-white">314</span>
+            <span class="text-white text-opacity-75">templates</span>
+          </p>
+          <p class="flex flex-col">
+            <span class="text-2xl font-bold text-white">12m+</span>
+            <span class="text-white text-opacity-75">queries</span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center text-[11px] opacity-0 hover:opacity-100">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-[#3e52a3]"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="text-[#3e52a3]">Your Name Here</a>.
+    </footer>
+  </body>
 </html>
