@@ -4,7 +4,8 @@
   "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write ./build/*.html"
   },
   "author": "",
   "license": "ISC",
