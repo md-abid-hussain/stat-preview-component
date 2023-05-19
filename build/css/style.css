@@ -522,6 +522,205 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-\[22px\] {
+  margin-bottom: 22px;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
 .grow {
   flex-grow: 1;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-t-md {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.bg-\[\#090b1a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 11 26 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1b1938\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 25 56 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-\[44px\] {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-inter {
+  font-family: Inter;
+}
+
+.font-lexendDeca {
+  font-family: Lexend Deca;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-\[\#3e52a3\] {
+  --tw-text-opacity: 1;
+  color: rgb(62 82 163 / var(--tw-text-opacity));
+}
+
+.text-\[\#aa5cdb\] {
+  --tw-text-opacity: 1;
+  color: rgb(170 92 219 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-opacity-75 {
+  --tw-text-opacity: 0.75;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+@media (min-width: 640px) {
+  .sm\:min-w-\[375px\] {
+    min-width: 375px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .xl\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .xl\:w-\[1110px\] {
+    width: 1110px;
+  }
+
+  .xl\:w-\[570px\] {
+    width: 570px;
+  }
+
+  .xl\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xl\:pl-\[72px\] {
+    padding-left: 72px;
+  }
+
+  .xl\:pr-\[92px\] {
+    padding-right: 92px;
+  }
+
+  .xl\:pt-\[76px\] {
+    padding-top: 76px;
+  }
+
+  .xl\:text-left {
+    text-align: left;
+  }
 }
