@@ -14,10 +14,12 @@ module.exports = {
       },
       spacing: {
         '320': '320px',
-        '375': '375px',
         '400': '400px',
         '570': '570px',
         '1110': '1110px'
+      },
+      minWidth: {
+        'mobile': '375px'
       }
     },
   },
