@@ -530,6 +530,10 @@ video {
   margin-bottom: 22px;
 }
 
+.mb-22 {
+  margin-bottom: 22px;
+}
+
 .flex {
   display: flex;
 }
