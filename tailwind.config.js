@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./build/**/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'inter': ['Inter'],
+        'lexendDeca': ['Lexend Deca']
+      }
+    },
   },
   plugins: [],
 }
